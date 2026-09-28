@@ -1,4 +1,4 @@
-FROM nginx:1.31.5
+FROM nginx:1.31.6
 
 # Copy over site specific configuration
 COPY /nginx/default.conf /etc/nginx/conf.d/default.conf
